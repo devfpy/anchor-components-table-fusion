@@ -1,6 +1,11 @@
+/*
+ * @Author: devfpy
+ * @Date: 2021-08-17 18:06:21
+ * @LastEditTime: 2021-08-17 18:25:33
+ * @LastEditors: devfpy
+ * @Description:
+ */
 import React from 'react'
-import styles from './styles.module.css'
+import { TableSelectionMode, TableComponent } from './Table/TableComponent'
 
-export const ExampleComponent = ({ text }) => {
-  return <div className={styles.test}>Example Component: {text}</div>
-}
+export { TableSelectionMode, TableComponent }

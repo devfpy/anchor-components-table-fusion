@@ -24,7 +24,11 @@
     "deploy": "gh-pages -d example/build"
   },
   "peerDependencies": {
-    "react": "^16.0.0"
+    "react": "^16.0.0",
+    "@alifd/next": "^1.23.22",
+    "babel-plugin-import": "^1.13.3",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1"
   },
   "devDependencies": {
     "microbundle-crl": "^0.13.10",
@@ -49,5 +53,11 @@
   },
   "files": [
     "dist"
-  ]
+  ],
+  "dependencies": {
+    "@alifd/next": "^1.23.22",
+    "babel-plugin-import": "^1.13.3",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1"
+  }
 }
